@@ -44,7 +44,7 @@
 
 ;(function($) {
 
-    if (typeof totalStorage == 'undefined' || totalStorage == null)
+    if (typeof $.totalStorage == 'undefined' || $.totalStorage == null)
         console.log('$.totalStorage is not defined. jquery-total-storage plugin is a strict requirement.')
 
     /* Make the methods public */
